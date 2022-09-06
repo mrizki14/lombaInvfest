@@ -18,20 +18,32 @@
   </head>
   <body>
     <!-- *AWAL NAVBAR* -->
-    <nav class="navbar navbar-expand-md navbar-expand-sm navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top">
       <div class="container">
         <a class="navbar-brand" href="#"><img src="/Assets/image/logo.png" /><span>His</span><b>CARE</b></a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+        </div>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link active mx-4" aria-current="page" href="#">Beranda</a>
-            <a class="nav-link mx-4" href="#">Rumah Sakit</a>
-            <a class="nav-link mx-4" href="#">Penyakit</a>
-            <a class="nav-link mx-4" href="#">Tentang</a>
-            <a class="nav-link mx-4 login" href="#">Masuk <img src="/Assets/image/login.svg" alt="" /></a>
-          </div>
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link active mx-4" aria-current="page" href="#">Beranda</a></li>
+              <li class="nav-item"><a class="nav-link mx-4" href="#">Rumah Sakit</a></li>
+              <li class="nav-item"> <a class="nav-link mx-4" href="#">Penyakit</a></li>
+              <li class="nav-item"><a class="nav-link mx-4" href="#">Tentang</a></li>
+              <li class="nav-item"><a class="nav-link mx-4 login" href="#">Masuk <img src="/Assets/image/login.svg" alt="" /></a>
+              </li>
+            </ul> 
+             
+              
+              
+            </div>
         </div>
       </div>
     </nav>
